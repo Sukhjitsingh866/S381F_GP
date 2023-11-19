@@ -1,21 +1,14 @@
 {
-  "name": "Magician's Code",
-  "description": "In Magician's Code, we believe that magic should be shared with everyone. Stay magical!",
-  "author": "SUKHJIT-SINGH, Bautista Arvie Adrian S., Limbu Utsab (Group 71)",
-  "version": "0.0.1",
-  "engines": {
-    "node": "^14.15.1"
-  },
-  "dependencies": {
-    "cookie-session": "^1.4.0",
-    "body-parser": "^1.18.3",
-    "nodemon": "^3.0.1",
-    "express": "^4.17.1",
-    "ejs": "^3.1.6",
-    "mongodb": "^4.1.4",
-    "assert": "^1.4.1"
-  },
-  "scripts": {
-    "start": "node server.js"
-  }
+    "name": "helloworld",
+    "description": "Express.js App",
+    "author": "Raymond SO <rso@ouhk.edu.hk>",
+    "version": "0.0.1",
+    "dependencies": {
+        "node": "*",
+        "express": "*"
+    },
+    "engine": "*",
+    "scripts": {
+        "start": "node server"
+    }
 }
