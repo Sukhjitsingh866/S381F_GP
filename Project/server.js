@@ -1,5 +1,8 @@
 const assert = require('assert');
-
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const session = require('cookie-session');
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 
@@ -7,10 +10,25 @@ const ObjectID = require('mongodb').ObjectID;
 const mongourl = ''; 
 const dbName = 'Cart';
 
-const express = require('express');
-const bodyParser = require('body-parser');
-const app = express();
-const session = require('cookie-session');
+//Start of hello world
+app.get('/',function(req,res){
+res.send('hello world');
+});
+
+
+
+
+
+
+
+
+
+//End of hello world
+
+
+
+
+
 
 
 
