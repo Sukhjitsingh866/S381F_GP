@@ -6,43 +6,19 @@ const session = require('cookie-session');
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 
-
-const mongourl = ''; 
+const mongourl = 'mongodb://your-mongodb-url'; // Replace with your MongoDB connection URL
 const dbName = 'Cart';
 
-//Start of hello world
-app.get('/',function(req,res){
-res.send('hello world');
+// Start of hello world
+app.get('/', function(req, res) {
+  res.send('Hello, world!');
 });
 
+// Login database
+var logininfo = [
+  { name: 'houdini', password: 'abracadabra' }
+];
 
+// Additional code goes here...
 
-
-
-
-
-
-
-//End of hello world
-
-
-
-
-
-
-
-
-//login database
-var logininfo = new Array(
-    {name: "houdini", password: "abracadabra"},
-);
-
-
-
-
-
-//ustab does the rest
-
-
-
-app.listen(app.listen(process.env.PORT || 8099));
+app.listen(process.env.PORT || 8099);
