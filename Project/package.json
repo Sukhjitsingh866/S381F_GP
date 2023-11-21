@@ -9,7 +9,7 @@
   "dependencies": {
     "assert": "^1.4.1",
     "body-parser": "^1.18.3",
-    "cookie-session": "*",
+    "cookie-session": "^1.4.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongodb": "^4.1.4",
