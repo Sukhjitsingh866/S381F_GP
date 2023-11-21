@@ -100,14 +100,7 @@ In this project, there are three HTTP request types, post, get, put and delete.
 - Delete
 	Delete request is used for deletion of a shopping cart.
 	Path URL: /api/cart/:userID
-	Test: curl -X DELETE http://your-server-url/api/cart/admin
+	Test: curl -X DELETE http://localhost:8099/api/cart/admin
 
 
 For all restful CRUD services, login should be done at first.
-
-
-curl -X POST -H "Content-Type: application/json" --data '{"name": "Taro & Tea", "restaurangID":"00000004"}' http://localhost:8099/api/item/restaurantID/00000004
-
-curl -X GET http://localhost:8099/api/item/restaurantID/00000002
-
-curl -X DELETE http://localhost:8099/api/item/restaurantID/00000002
